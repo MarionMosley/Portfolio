@@ -1,0 +1,213 @@
+body {
+
+}
+
+header {
+    display: flex;
+    background-color: rgb(121, 11, 121);
+    height: 120px;
+}
+
+.name {
+    display: flex;
+    background-color: white;
+    width: 1000px;
+    flex-direction: row-reverse;
+    padding: 15px;
+    font-size: 300%;
+    font-family: Impact;
+    align-self: center;
+    letter-spacing: 3px;
+    box-shadow: 14px 12px 8px rgb(66, 182, 250);
+    color: rgb(66, 182, 250);
+}
+
+.navbar {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    width: 100%;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-family: Impact;
+    padding: 8px;
+    margin: 5px;
+    margin-bottom: 10px;
+    color: rgb(66, 182, 250);
+    border-width: 3px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+   
+}
+
+.navbar a:hover {
+    color: white;
+    border-color: rgb(66, 182, 250);
+    box-shadow: 5px 4px 8px rgb(66, 182, 250);
+}
+
+#image-card h2 {
+    background-image: url(./images/hyperwave-back.jpg);
+    height: 300px;
+}
+
+#about {
+    font-size: 175%;
+    line-height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    color: rgb(121, 11, 121);
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.rounded {
+    display: block;
+    object-fit: cover;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    margin-left: 120px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-color: rgb(121, 11, 121);
+    border-width: 8px;
+    border-style: solid;
+}
+
+#describe {
+    font-size: 135%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.intro-text {
+    margin-top: 190px;
+    margin-bottom: 190px;
+    margin-left: 50px;
+
+}
+
+.display {
+    background-color: rgb(121, 11, 121);
+}
+
+#projects {
+    flex-direction: column;
+    font-size: 300%;
+    line-height: 50px;
+    font-family: Impact;
+    letter-spacing: 4px;
+    color: rgb(66, 182, 250); 
+    text-decoration: underline; 
+    text-align: center;
+}
+
+
+.project-images {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin-left: 260px;
+    padding: 10px;
+}
+
+#img1 {
+    border-style: solid;
+    border-width: 8px;
+    border-color: black;
+    border-radius: 8px;
+    margin: 8px;
+}
+
+#img2 {
+    border-style: solid;
+    border-width: 8px;
+    border-color: black;
+    border-radius: 8px;
+    margin: 8px;
+}
+
+#img3 {
+    border-style: solid;
+    border-width: 8px;
+    border-color: black;
+    border-radius: 8px;
+    margin: 8px;
+}
+
+#img1:hover {
+    border-color: white;
+}
+
+#img2:hover {
+    border-color: white;
+}
+
+#img3:hover {
+    border-color: white;
+}
+
+h2 {
+    font-size: 300%;
+    font-family: Impact;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(121, 11, 121);
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical 
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: rgb(66, 182, 250);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: rgba(66, 182, 250, 0.507);
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+footer {
+    background-color: rgb(121, 11, 121);
+    display: block;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    border-radius: 0px;
+}
+
+span {
+    font-size: 110%;
+    font-family: Arial, Helvetica, sans-serif;
+}

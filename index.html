@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>LIORS PORTFOLIO PAGE</title>
+        <link rel='stylesheet' href='./assets/reset.css'/>
+        <link rel='stylesheet' href='./assets/style.css'/>
+    </head>
+
+    <body>
+
+            <header id="Home">
+              <h1 class="name"> LIOR MOSES</h1>             
+              <nav class="navbar">
+                  <a href="#Home">Home</a>
+                  <a href="#image-card">About Me</a>
+                  <a href="#projects">Previous Projects</a>
+                  <a href="#Contact">Contact Me</a>
+              </nav>
+            </header>
+
+            <subheader id="image-card">
+                <h2></h2>
+            </subheader>
+
+            <main>
+
+               <!-- intro and short description -->
+                <section class="intro">
+
+                    <img class='rounded' src="./assets/images/Walter.jpg" alt="Bull Terrier front view"/>
+
+                    <div class="intro-text">
+                    <h3 id="about">About Me: </h3>
+                    <p id="describe">My name is Lior Moses and I would one day love to be able to develop video games for a living.</p>
+                    </div>
+
+                </section>
+
+                <!-- Previous work section-->
+                <section class="display" >
+                
+                    <div class="vl">
+
+                     <h3 id="projects">Projects</h3>
+
+                     <div class="project-images">
+                       <a class='project-images' target="_blank" href="https://marionmosley.github.io/Challenge-Week1/"><img id='img1' src="./assets/images/Horiseon.PNG"/></a>
+                       <a class='project-images' target="_blank" href="https://marionmosley.github.io/prework-study-guide/"><img id='img2' src="./assets/images/Prework.PNG"/></a>
+                       <a class='project-images' target="_blank" href="https://marionmosley.github.io/CSS-cheatsheet/"><img id='img3' src="./assets/images/Css-cheatsheet.PNG"/></a>
+                     </div>
+
+                    </div>
+
+                </section>
+
+                <!-- Contact me form -->
+                <section>
+                    <h2 id="Contact">Contact Me</h2>
+
+                    <div class="container">
+                        <form action="action_page.php">
+                      
+                          <label for="fname">First Name</label>
+                          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                      
+                          <label for="lname">Last Name</label>
+                          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                      
+                          <label for="country">Country</label>
+                          <select id="country" name="country">
+                            <option value="australia">Australia</option>
+                            <option value="usa">New Zealand</option>
+                            <option value="canada">Canada</option>
+                            <option value="usa">USA</option>
+                            <option value="usa">Israel</option>
+                            <option value="usa">China</option>
+                            <option value="usa">Japan</option>
+                            <option value="usa">India</option>
+                          </select>
+                      
+                          <label for="subject">Subject</label>
+                          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                      
+                          <input type="submit" value="Submit">
+                      
+                        </form>
+                      </div>
+
+                </section>
+
+            </main>
+
+
+
+          
+            <footer>
+              <span>Thanks for visiting!</span>
+            </footer>
+            
+    </body>
+
+</html>
