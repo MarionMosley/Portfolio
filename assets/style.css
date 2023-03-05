@@ -164,7 +164,6 @@ h2 {
     color: rgb(121, 11, 121);
 }
 
-/* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
     width: 100%; 
     padding: 12px; 
@@ -176,7 +175,6 @@ input[type=text], select, textarea {
     resize: vertical 
   }
   
-  /* Style the submit button with a specific background color etc */
   input[type=submit] {
     background-color: rgb(66, 182, 250);
     color: white;
@@ -186,12 +184,10 @@ input[type=text], select, textarea {
     cursor: pointer;
   }
   
-  /* When moving the mouse over the submit button, add a darker green color */
   input[type=submit]:hover {
     background-color: rgba(66, 182, 250, 0.507);
   }
   
-  /* Add a background color and some padding around the form */
   .container {
     border-radius: 5px;
     background-color: #f2f2f2;
